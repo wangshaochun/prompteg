@@ -1,0 +1,58 @@
+baseURL: https://whale-code.com/
+title: prompt example
+theme: hextra
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - name: Home 
+          pageRef: /
+          weight: 1
+        - name: Docs
+          pageRef: /docs
+          weight: 2
+        - name: About
+          pageRef: /about
+          weight: 3
+        - name: Search
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/wangshaochun/prompteg"
+          params:
+            icon: github
+  zh:
+    languageName: 简体中文
+    weight: 2
+    title: 提示词示例
+    menu:
+      main:
+        - name: 首页
+          pageRef: /
+          weight: 1
+        - name: 文档
+          pageRef: /docs
+          weight: 2
+        - name: 关于
+          pageRef: /about
+          weight: 3
+        - name: 搜索
+          weight: 4
+          params:
+            type: search
+        - name: GitHub
+          weight: 5
+          url: "https://github.com/wangshaochun/prompteg"
+          params:
+            icon: github  
+
+params:
+  theme:
+    # light | dark | system
+    default: light
+    displayToggle: true
